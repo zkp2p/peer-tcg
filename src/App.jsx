@@ -322,7 +322,7 @@ function App() {
       style: 'currency',
       currency: 'USD',
       maximumFractionDigits: 0,
-    }).format(volume)} on @PeerProtocol 🔥`
+    }).format(volume)} on @zkp2p 🔥`
 
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
