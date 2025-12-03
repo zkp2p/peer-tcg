@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'PP Valve';
-  src: url('/fonts/PPValve-Regular.otf') format('opentype');
+  src: url('/fonts/PPValve-Regular.woff2') format('woff2'),
+       url('/fonts/PPValve-Regular.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -8,7 +9,8 @@
 
 @font-face {
   font-family: 'PP Valve';
-  src: url('/fonts/PPValve-Bold.otf') format('opentype');
+  src: url('/fonts/PPValve-Bold.woff2') format('woff2'),
+       url('/fonts/PPValve-Bold.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
